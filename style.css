@@ -5,7 +5,7 @@
 
 .section-1{
     height: 500px;
-    background-color: rgb(0, 0, 20);
+    background-color: rgb(0, 0, 0);
 }
 
 .carta-sucursal{
@@ -66,8 +66,8 @@
 }
 
 .section-2{
-    height: 500px;
-    background-color: rgb(0, 0, 20);
+    height: 450px;
+    background-color: rgb(0, 0, 0);
 }
 
 .section-2 h4{
@@ -78,15 +78,17 @@
 }
 
 .comentario-chef{
-    background: rgb(252, 164, 31);
+    background: rgb(20, 20, 20);
     display: grid;
     grid-template-columns: 30% 70%;
     margin-left: 10%;
     margin-right: 10%;
     height: 200px;
+    border-radius: 20px;
 }
 
 .parrafo-chef{
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,6 +99,30 @@
 .img-chef{
     width: 300px;
     border-radius: 20px;
+}
+
+
+.section-3{
+    height: 750px;
+    background-color: rgb(0, 0, 0);
+}
+
+.reserva{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 80%;
+    margin: auto;
+}
+
+.reserva-figura{
+    background: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-reserva{
+    height: 650px;
 }
 
 footer{
@@ -212,11 +238,17 @@ footer{
 }
 
 .nav-footer li .inicio{
+    font-weight: bold;
     padding: 10px 50px;
 }
 
 .nav-footer li .contacto{
     padding: 10px 50px;
+    font-weight: bolder;
+}
+
+.nav-footer li .quienes{
+    font-weight: bolder;
 }
 
 
