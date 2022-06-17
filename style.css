@@ -270,12 +270,18 @@ footer{
 .nav-footer li .contacto{
     padding: 10px 50px;
     font-weight: bolder;
+    justify-content: center;
 }
 
 .nav-footer li .quienes{
     font-weight: bolder;
 }
 
+.derechos{
+    color: white;
+    text-align: center;
+    background: black;
+}
 
 
 @media screen and (max-width: 950px){
@@ -301,6 +307,9 @@ footer{
         background-position: center center;
     }
 
+    .boton-reserva{
+        padding: 20px 20px;
+    }
 
     .section-1{
         height: 900px;
