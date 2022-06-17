@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+
+h2{
+    text-align: center;
+        
+}
+
+#tarjetas{
+    background-color: black;
+}
+
+.card:hover{
+    -webkit-transform:scale(0.9);transform:scale(0.9);
+}
+.card {
+    overflow:hidden;
+}
+
+.contenedor-cards{
+    margin:8px;
+}
