@@ -1,0 +1,350 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    background: black;
+}
+
+header {
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+.nosotros{
+    margin-top: 40px;
+    background: rgb(20, 20, 20);
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 85%;
+    border-radius: 65px;
+}
+
+.nosotros h1{
+    color: white;
+    margin: 40px 20px;
+}
+
+.nosotros p{
+    display: flex;
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1{
+    color: white;
+    text-align: center;
+    margin: 80px;
+}
+
+.info-personal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 60px;
+    gap: 15px;
+    height: 450px;
+    width: 80%;
+    margin: auto;
+}
+
+.enzo{
+    display: grid;
+    grid-template-rows: 60% 10% 20%;
+    background: rgb(20, 20, 20);
+}
+
+.foto-enzo{
+    background-position: center center;
+    background-size: cover;
+}
+
+.enzo h4{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.datos-enzo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.datos-enzo p{
+    font-weight: bold;
+}
+
+.gabi{
+    display: grid;
+    grid-template-rows: 60% 10% 20%;
+    background: rgb(20, 20, 20);
+}
+
+.foto-gabi{
+    background-position: center center;
+    background-size: cover;
+}
+
+.gabi h4{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.datos-gabi{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.datos-gabi p{
+    font-weight: bold;
+}
+
+.mica{
+    display: grid;
+    grid-template-rows: 60% 10% 20%;
+    background: rgb(20, 20, 20);
+}
+
+.foto-mica{
+    background-position: center center;
+    background-size: cover;
+}
+
+.mica h4{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.datos-mica{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.datos-mica p{
+    font-weight: bold;
+}
+
+.fer{
+    display: grid;
+    grid-template-rows: 60% 10% 20%;
+    background: rgb(20, 20, 20);
+}
+
+.foto-fer{
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.fer h4{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.datos-fer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.datos-fer p{
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 140px;
+    height: 300px;
+    background: rgb(252, 164, 31);
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo .imagen{
+    width: 300px;
+}
+
+.redes-container h4{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 8px;
+
+}
+
+.redes-container{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 50px 5px 10px;
+}
+
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #333;
+    color: white;
+    line-height: 50px;
+    font-size: 22px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, .2);
+    border-radius: 25px;
+    transition: .2s;
+}
+
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+}
+
+.redes-container ul li a:hover{
+    background: rgb(254, 228, 84);
+    color: black;
+}
+
+.nav-footer{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 55px;*/
+}
+
+.nav-footer li{
+    list-style: none;
+}
+
+
+.nav-footer li a{
+    background-color: #333;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, .2);
+    color: white;
+    width: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.nav-footer li a:hover{
+    background: rgb(254, 228, 84);
+    color: black;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, .4);
+}
+
+
+.nav-footer li .inicio{
+    font-weight: bold;
+    padding: 10px 50px;
+}
+
+.nav-footer li .contacto{
+    padding: 10px 70px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.derechos{
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 950px) {
+
+    .nosotros{
+        height: 1100px;
+    }
+
+    .info-personal{
+        height: 2400px;
+    }
+
+    .enzo{
+        grid-column: span 4;
+        height: 600px;
+    }
+
+    .gabi{
+        grid-column: span 4;
+        height: 600px;
+    }
+
+    .mica{
+        grid-column: span 4;
+        height: 600px;
+    }
+
+    .fer{
+        grid-column: span 4;
+        height: 600px;
+    }
+
+    footer{
+        height: 900px;
+    }
+
+    .logo{
+        grid-column: span 3;
+        height: 350px;
+    }
+
+    .redes-container{
+        grid-column: span 3;
+        margin-left: 50px;
+    }
+
+    .barra-footer{
+        grid-column: span 3;
+        margin-left: 10px;
+    }
+    
+}
+
+
