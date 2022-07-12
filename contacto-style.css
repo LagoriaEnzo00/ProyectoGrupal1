@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+.slide img {
+height: 750px;
+}
+
+.derechos{    
+    text-align: center;
+}

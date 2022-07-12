@@ -4,8 +4,9 @@
 }
 
 body{
-    background:black;
+    background: black;
 }
+
 
 header {
     z-index: 100;
@@ -31,35 +32,6 @@ h2{
 .contenedor-cards{
     margin:8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .section-1{
     margin-top: 70px;
